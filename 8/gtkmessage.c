@@ -5,6 +5,7 @@ void quit ( GtkWidget *window, gpointer data) {
     gtk_main_quit();
 }
 
+
 int main (int argc, char *argv[]) {
     GtkWidget *window, *dialog;
     gint result;

@@ -18,7 +18,7 @@ int main() {
     char msg[1024];
     char msg_recv[1024];
 
-    if ( (sockfd = socket(PF_INET, SOCK_STREAM, 0)) < 0) {
+    if ( (sockfd = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
         fprintf(stderr, "failed create socket\n");
         exit(1);
     }
